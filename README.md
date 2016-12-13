@@ -10,7 +10,7 @@ Have you ever been in the situation where you happen upon a problem whose soluti
 Please feel free to contribute or get in contact if you would like to see any algorithms added to this repository. The more the better. 
 
 ### TO DO: 
-1. Organize [freecodecamp](https://www.freecodecamp.com) solutions to basic and intermediate algorithms
+1. Organize [freecodecamp](https://www.freecodecamp.com) (FCC) solutions to basic and intermediate algorithms
 2. Add README.md to relevant places
 3. Organize main-algorithms file structure
 4. Add to main-algorithms uncommitted solutions
@@ -21,8 +21,8 @@ Please feel free to contribute or get in contact if you would like to see any al
 Swainson Holness
 
 ### Contact
-email: swainson.holness@gmail.com
-FCC profile: https://www.freecodecamp.com/exogenist
+*email: swainson.holness@gmail.com
+*FCC profile: https://www.freecodecamp.com/exogenist
 
 ### License
 MIT

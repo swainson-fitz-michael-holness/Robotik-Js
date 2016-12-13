@@ -1,7 +1,7 @@
 // Author - Swainson Holness
 // Contact - swainson.holness@gmail.com
 
-//*============================================
+//============================================
 //  01 Reverse a String Basic 
 //============================================
 // Reverse the provided string.

@@ -21,8 +21,8 @@ Please feel free to contribute or get in contact if you would like to see any al
 Swainson Holness
 
 ### Contact
-*email: swainson.holness@gmail.com
-*FCC profile: https://www.freecodecamp.com/exogenist
+1. email: swainson.holness@gmail.com 
+2. FCC profile: https://www.freecodecamp.com/exogenist
 
 ### License
 MIT

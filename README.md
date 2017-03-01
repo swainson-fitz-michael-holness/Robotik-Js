@@ -1,6 +1,6 @@
 ![alt tag](https://github.com/Exogenist/algorithm-library/blob/master/img/header.png)
 
-# Various Algorithms in Javascript
+# Essential Algorithms in Javascript
 A journal of all the algorithms I've come across. There are two main sets. Those developed through the freecodecamp challenges https //www.freecodecamp.com and those I've picked up in different places. 
 
 ### Motivation

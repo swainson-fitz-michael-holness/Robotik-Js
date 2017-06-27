@@ -1,19 +1,3 @@
-//function wrd_count(str) {
-//    var arr = [];
-//    var update = str.replace(/'/g, "").replace(/\W/g, " ");
-//    arr = update.split(" ");
-//    for (var i = 0; i < arr.length; i++) {
-//        if (arr[i] === "") {
-//            arr.splice(i, 1);
-//        }
-//    }
-//
-//
-//    return arr;
-//}
-//
-//console.log(wrd_count("I want to test swainson's something. I am in the belief that I can control the energies around me. I have this picture in my mind where I am something akin to a magnet, a complicated attractive force that pushes away certain things and attracts certain things based on its makeup. "))
-
 function wrd_count(str) {
   var holding_arr = [];;
   var update = str.replace(/'/g, '').replace(/\W/g, ' ');

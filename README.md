@@ -3,6 +3,11 @@
 # A Collection of various scripts and algorithms 
 
 ### basic-algorithm-scripting (FCC)
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
 01-reverse.string.js
 02-factorialize.js
 03-palindrome.js

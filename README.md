@@ -2,11 +2,8 @@
 
 # A Collection of various scripts and algorithms 
 
-### basic-algorithm-scripting (FCC)
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+### Basic Algorithm Scripting (FCC)
+A collection of solutions for the freecodecamp basic algorithm challenges. 
 
 1. reverse.string.js
 2. factorialize.js
@@ -23,6 +20,13 @@
 13. falsy.js
 14. eliminate.index.js
 15. insert.index.js
+
+### Main Algorithms
+Loosely relataed algorithms created out of curiosity or for solving specific to nonspecific problems.
+
+* generate-array
+* prime-factor
+* sort-array
 
 ### Author
 Swainson Holness

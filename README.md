@@ -1,17 +1,23 @@
 ![alt tag](https://github.com/Exogenist/algorithm-library/blob/master/img/header.png)
 
-# Essential Algorithms in Javascript
-Robotik.js is a library which contains many solutions that make the coding process automnous . There are two main sets of code. Those developed through the freecodecamp challenges https //www.freecodecamp.com and those I've picked up in different places. Both sets contain functions useful for the problem solving process. 
+# A Collection of various scripts and algorithms 
 
-### Motivation
-Algorithms are highly useful for autonomous solutions to problems. This is my attempt to organize useful algorithms in JavaScript for easy and useful access. The algorithms produced from freecodecamp.com (FCC) algorithm challenges are necessary for qualification as a frontend web developer.    
-
-All other algorithms were developped for differing reasons.    
-
-### Contributions
-Please feel free to contribute!!
-
-***
+### basic-algorithm-scripting (FCC)
+01-reverse.string.js
+02-factorialize.js
+03-palindrome.js
+04-longest.word.js
+05-title.case.js
+06-largest.num.js
+07-confirm.ending.js
+08-repeat.str.js
+09-truncate.js
+10-chunk.arr.js
+11-slash.arr.js
+12-line.check.js
+13-falsy.js
+14-eliminate.index.js
+15-insert.index.js
 
 ### Author
 Swainson Holness

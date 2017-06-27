@@ -39,4 +39,5 @@ function wrd_count(str) {
   }
   return ;
 }
-console.log(wrd_count('I want to test swainson\'s something. I am in the belief that I can control the energies around me. I have this picture in my mind where I am something akin to a magnet, a complicated attractive force that pushes away certain things and attracts certain things based on its makeup.'));
+console.log(wrd_count('
+The muck noses under the applause! Our inaccurate oxygen ruins a stair before the expanded elevator. A garbage believes on top of the mill! Every tending capital stones the particle. A squashed glove proceeds next to the arrow.'));

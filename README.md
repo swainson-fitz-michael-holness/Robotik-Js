@@ -27,6 +27,7 @@ Loosely relataed algorithms created out of curiosity or for solving specific to 
 1. generate-array
 2. prime-factor
 3. sort-array
+4. word-count
 
 ### Author
 Swainson Holness

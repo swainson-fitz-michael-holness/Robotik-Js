@@ -8,21 +8,21 @@
                   * Sub-nested bullet etc
           * Bullet list item 2
 
-01-reverse.string.js
-02-factorialize.js
-03-palindrome.js
-04-longest.word.js
-05-title.case.js
-06-largest.num.js
-07-confirm.ending.js
-08-repeat.str.js
-09-truncate.js
-10-chunk.arr.js
-11-slash.arr.js
-12-line.check.js
-13-falsy.js
-14-eliminate.index.js
-15-insert.index.js
+1. reverse.string.js
+2. factorialize.js
+3. palindrome.js
+4. longest.word.js
+5. title.case.js
+6. largest.num.js
+7. confirm.ending.js
+8. repeat.str.js
+9. truncate.js
+10. chunk.arr.js
+11. slash.arr.js
+12. line.check.js
+13. falsy.js
+14. eliminate.index.js
+15. insert.index.js
 
 ### Author
 Swainson Holness

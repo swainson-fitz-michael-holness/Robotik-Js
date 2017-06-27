@@ -24,9 +24,9 @@ A collection of solutions for the freecodecamp basic algorithm challenges.
 ### Main Algorithms
 Loosely relataed algorithms created out of curiosity or for solving specific to nonspecific problems.
 
-* generate-array
-* prime-factor
-* sort-array
+1. generate-array
+2. prime-factor
+3. sort-array
 
 ### Author
 Swainson Holness

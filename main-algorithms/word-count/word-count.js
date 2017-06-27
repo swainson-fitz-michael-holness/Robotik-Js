@@ -23,5 +23,4 @@ function wrd_count(str) {
   }
   return ;
 }
-console.log(wrd_count('
-The muck noses under the applause! Our inaccurate oxygen ruins a stair before the expanded elevator. A garbage believes on top of the mill! Every tending capital stones the particle. A squashed glove proceeds next to the arrow.'));
+console.log(wrd_count('The muck noses under the applause! Our inaccurate oxygen ruins a stair before the expanded elevator. A garbage believes on top of the mill! Every tending capital stones the particle. A squashed glove proceeds next to the arrow.'));

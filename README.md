@@ -31,6 +31,7 @@ Loosely relataed algorithms created out of curiosity or for solving specific to 
 
 ### Author
 Swainson Holness
+Website: [swainsonholness.me](http://swainsonholness.me/)
 
 ### Contact
 1. email: swainson.holness@ gmail.com 

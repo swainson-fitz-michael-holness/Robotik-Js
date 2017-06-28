@@ -2,7 +2,7 @@
 
 # A Collection of various scripts and algorithms 
 
-### Basic Algorithm Scripting (FCC)
+### [Basic Algorithm Scripting (FCC)](https://github.com/Exogenist/Robotik-js/tree/master/basic-algorithm-scripting)
 A collection of solutions for the freecodecamp basic algorithm challenges. 
 
 1. reverse.string.js

@@ -24,10 +24,10 @@ A collection of solutions for the freecodecamp basic algorithm challenges.
 ### [Main Algorithms](https://github.com/Exogenist/Robotik-js/tree/master/main-algorithms)
 Loosely relataed algorithms created out of curiosity or for solving specific to nonspecific problems.
 
-1. generate-array
-2. prime-factor
-3. sort-array
-4. word-count
+* generate-array
+* prime-factor
+* sort-array
+* word-count
 
 ### Author
 Swainson Holness

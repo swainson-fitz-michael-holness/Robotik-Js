@@ -28,6 +28,7 @@ Loosely relataed algorithms created out of curiosity or for solving specific to 
 * prime-factor
 * sort-array
 * word-count
+* insert-string
 
 ### Author
 Swainson Holness

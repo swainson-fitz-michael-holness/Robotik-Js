@@ -28,7 +28,7 @@ Loosely relataed algorithms created out of curiosity or for solving specific to 
 * [sort-array](https://github.com/Exogenist/Robotik-Js/tree/master/main-algorithms/sort-array)
 * [word-count](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/word-count/word-count.js)
 * [insert-string](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/insert-string/insert-string.js)
-*[alpha-sort](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/alpha-sort/alpha-sort.js)
+* [alpha-sort](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/alpha-sort/alpha-sort.js)
 
 ### Author
 Swainson Holness

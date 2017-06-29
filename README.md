@@ -5,21 +5,20 @@
 ### [Basic Algorithm Scripting (FCC)](https://github.com/Exogenist/Robotik-js/tree/master/basic-algorithm-scripting)
 A collection of solutions for the freecodecamp basic algorithm challenges. 
 
-1. reverse.string.js
-2. factorialize.js
-3. palindrome.js
-4. longest.word.js
-5. title.case.js
-6. largest.num.js
-7. confirm.ending.js
-8. repeat.str.js
-9. truncate.js
-10. chunk.arr.js
-11. slash.arr.js
-12. line.check.js
-13. falsy.js
-14. eliminate.index.js
-15. insert.index.js
+1. [reverse.string.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/01-reverse.string.js)
+2. [factorialize.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/02-factorialize.js)
+4. [longest.word.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/03-palindrome.js)
+5. [title.case.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/04-longest.word.js)
+6. [largest.num.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/06-largest.num.js)
+7. [confirm.ending.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/07-confirm.ending.js)
+8. [repeat.str.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/08-repeat.str.js)
+9. [truncate.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/09-truncate.js)
+10. [chunk.arr.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/10-chunk.arr.js)
+11. [slash.arr.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/11-slash.arr.js)
+12. [line.check.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/12-line.check.js)
+13. [falsy.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/13-falsy.js)
+14. [eliminate.index.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/14-eliminate.index.js)
+15. [insert.index.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/15-insert.index.js)
 
 ### [Main Algorithms](https://github.com/Exogenist/Robotik-js/tree/master/main-algorithms)
 Loosely relataed algorithms created out of curiosity or for solving specific to nonspecific problems.

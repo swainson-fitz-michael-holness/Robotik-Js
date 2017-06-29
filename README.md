@@ -23,11 +23,12 @@ A collection of solutions for the freecodecamp basic algorithm challenges.
 ### [Main Algorithms](https://github.com/Exogenist/Robotik-js/tree/master/main-algorithms)
 Loosely relataed algorithms created out of curiosity or for solving specific to nonspecific problems.
 
-* generate-array
-* prime-factor
-* sort-array
-* word-count
-* insert-string
+* [generate-array](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/generate-array/generate-arr.js)
+* [prime-factor](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/prime-factor/prime-factor.js)
+* [sort-array](https://github.com/Exogenist/Robotik-Js/tree/master/main-algorithms/sort-array)
+* [word-count](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/word-count/word-count.js)
+* [insert-string](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/insert-string/insert-string.js)
+*[alpha-sort](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/alpha-sort/alpha-sort.js)
 
 ### Author
 Swainson Holness

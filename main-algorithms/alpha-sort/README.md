@@ -1,5 +1,5 @@
 ## Alphabetize String Into Array
-This next function takes a string, strips it of all alphanumeric characters and arranges the text in alphabetical order inside an array. 
+This function takes a string, strips it of all alphanumeric characters and arranges the text in alphabetical order inside an array. 
 
 ### Author
 Swainson Holness

@@ -2,7 +2,8 @@
 // Contact - swainson.holness@gmail.com
 
 // FCC Description:
-// Convert the given number into a roman numeral.
+// Find the missing letter in the passed letter range and return it.
+// If all letters are present in the range, return undefined.
 
 function fearNotLetter(str) {
   for(i = 0; i < str.length; i++) {

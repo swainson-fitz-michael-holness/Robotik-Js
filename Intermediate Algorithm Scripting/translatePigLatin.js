@@ -2,7 +2,7 @@
 // Contact - swainson.holness@gmail.com
 
 // FCC Description:
-// We'll pass you an array of two numbers. Return the sum of those two numbers and all numbers between them.
+// Translate the provided string to pig latin.
 
 function translatePigLatin(str) {
   var vowel = [

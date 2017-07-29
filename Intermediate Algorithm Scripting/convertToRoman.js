@@ -1,3 +1,10 @@
+
+// Author - Swainson Holness
+// Contact - swainson.holness@gmail.com
+
+// FCC Description:
+// Convert the given number into a roman numeral.
+
 function convertToRoman(num) {
   function createNumerals (sym1, sym2, sym3) {
   var symArr =[];

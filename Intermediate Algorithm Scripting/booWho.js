@@ -2,7 +2,7 @@
 // Contact - swainson.holness@gmail.com
 
 // FCC Description:
-// We'll pass you an array of two numbers. Return the sum of those two numbers and all numbers between them.
+// Check if a value is classified as a boolean primitive. Return true or false.
 
 function booWho(bool) {
   if(typeof bool === "boolean"){

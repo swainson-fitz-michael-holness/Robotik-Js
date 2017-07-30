@@ -2,7 +2,7 @@
 // Contact - swainson.holness@gmail.com
 
 // FCC Description:
-// We'll pass you an array of two numbers. Return the sum of those two numbers and all numbers between them.
+// Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
 
 function convertHTML(str) {
   str = str.replace(/&/g, "&amp;").replace(/</g, "&lt;" ).replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");

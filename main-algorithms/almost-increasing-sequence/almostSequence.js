@@ -15,7 +15,7 @@ function almostIncreasingSequence(s) {
     return false;
 }
 
-s.sort(function(a, b){return a-b});
+//s.sort(function(a, b){return a-b});
 
 function almostIncreasingSequenceAlt(s) {
     for(var x = 0; x < s.length; x++){

@@ -21,7 +21,7 @@ A collection of solutions for the freecodecamp basic algorithm challenges.
 15. [insert.index.js](https://github.com/Exogenist/Robotik-Js/blob/master/basic-algorithm-scripting/15-insert.index.js)
 
 ### [Main Algorithms](https://github.com/Exogenist/Robotik-js/tree/master/main-algorithms)
-Loosely relataed algorithms created out of curiosity or for solving specific to nonspecific problems.
+Loosely related algorithms created out of curiosity or for solving specific to nonspecific problems.
 
 * [generate-array](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/generate-array/generate-arr.js)
 * [prime-factor](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/prime-factor/prime-factor.js)
@@ -29,6 +29,9 @@ Loosely relataed algorithms created out of curiosity or for solving specific to 
 * [word-count](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/word-count/word-count.js)
 * [insert-string](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/insert-string/insert-string.js)
 * [alpha-sort](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/alpha-sort/alpha-sort.js)
+
+### Understanding the deeper nature of Javascript
+
 
 ### Author
 Swainson Holness

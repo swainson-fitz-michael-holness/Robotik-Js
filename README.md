@@ -30,7 +30,8 @@ Loosely related algorithms created out of curiosity or for solving specific to n
 * [insert-string](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/insert-string/insert-string.js)
 * [alpha-sort](https://github.com/Exogenist/Robotik-Js/blob/master/main-algorithms/alpha-sort/alpha-sort.js)
 
-### Understanding the deeper nature of Javascript
+### JS Note
+Understanding the deeper nature of Javascript.
 
 
 ### Author

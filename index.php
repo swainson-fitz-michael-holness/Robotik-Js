@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -11,7 +12,8 @@
 </head>
 
 <body>
-	<h1>Hello</h1>
-  <script src="./archive/main.js"></script>
+  <h1>Hello</h1>
+  <script type="module" src="./archive/main.js"></script>
 </body>
+
 </html>

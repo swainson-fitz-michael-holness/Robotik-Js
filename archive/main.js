@@ -105,7 +105,7 @@ const debug = false;
 // --------------------------------------------------------------------------------
 function sumPrimes2(num) {
     let outStep = 0
-    let inStep = 0
+
     if (debug) console.log("WARNING - DEBUGGING LOGGING WILL DECREASE PREFORMANCE");
 
     // Bounds checking
@@ -146,89 +146,375 @@ function sumPrimes2(num) {
 
     // Return
     if (debug) console.log("END DEBUGGING OUTPUT");
-    return outStep;
+    return isPrime;
 }
+
+// const wheelPrime = (n) => {
+//     let step = 0;
+
+//     const p = [2, 3, 5]
+//     // let sieve = Array(n).fill(false);
+//     let sieve = Array(n).fill(false)
+
+//     // const genPrime = [7, 11, 13, 17, 19, 23, 29, 31];
+
+//     const inc = [4, 2, 4, 2, 4, 6, 2, 6]
+
+//     let g = 0;
+//     let h = 0;
+//     let m = 0;
+//     let k = 0;
+
+//     // let wheelSum = 0
+//     // let compSum
+
+
+//     // sieve[7] = 7;
+
+//     //fill genPrime using wheel
+//     for (let i = 7; i + inc[g % 8] < n; i += inc[(g - 1) % 8]) {
+//         sieve[i] = true;
+
+//         // genPrime.push(i+ inc[i % 8])
+
+//         g++
+//         // console.log(inc[(g - 1) % 42])
+//         step++
+//     }
+
+//     for (let v = 7; v < n; v += inc[(h - 1) % 8]) {
+//         step++
+//         m = k;
+//         for (let s = v; s <= Math.floor(Math.sqrt(n)); s += inc[(m - 1) % 8]) {
+//             step++
+//             if (sieve[v * s]) sieve[v * s] = false
+//             // console.log(s + " : " + m)
+//             m++
+//         }
+//         k++
+//         h++
+//         // sieve[i+ inc[h % 8]] = i+ inc[h % 8]
+//     }
+
+
+//     // for (let j = 0; genPrime[j] < Math.floor(Math.sqrt(n)); j++) {
+//     //     // let terminate;
+//     //     step++
+//     //     for (let g = j; genPrime[j] * genPrime[g] < n; g++) {
+//     //         let primeComposite = genPrime[j] * genPrime[g]
+//     //         if (sieve[primeComposite]) sieve[primeComposite] = false
+//     //         // terminate = genPrime[j] * genPrime[g + 1]
+//     //         step++
+//     //     }
+
+//     //     // if (terminate > n) {
+//     //     //     break
+//     //     // }
+
+//     // }
+
+
+
+//     return sieve
+
+// }
+
+// const wheelPrime = (n) => {
+//     // let step = 0;
+
+//     const p = [2, 3, 5]
+//     // let b = Math.floor((n) / 30)
+//     // let sieve = Array(n).fill(false);
+//     // let sieve = Array(79).fill(false)
+//     let sieve = []
+
+//     let genPrime = Array(31).fill(false)
+//     genPrime[7] = 0
+//     genPrime[11] = 1
+//     genPrime[13] = 2
+//     genPrime[17] = 3
+//     genPrime[19] = 4
+//     genPrime[23] = 5
+//     genPrime[29] = 6
+//     genPrime[1] = -1
+
+//     const inc = [4, 2, 4, 2, 4, 6, 2, 6]
+
+//     let g = 0;
+//     // let h = 0;
+
+//     // let k = 0;
+
+//     // let wheelSum = 0
+//     // let compSum
+
+
+//     // sieve[7] = 7;
+
+//     //fill genPrime using wheel
+//     for (let i = 7; i < n;) {
+//         sieve[g] = i;
+//         // console.log(i + inc[(g) % 8])
+//         i += inc[g % 8]
+
+//         // genPrime.push(i+ inc[i % 8])
+
+//         g++
+//         // console.log(inc[(g - 1) % 42])
+//         // step++
+//     }
+
+
+//     for (let v = 0; v < sieve.length; v++) {
+//         let m = v;
+//         if (sieve[v]) {
+//             for (let x = sieve[v]; x * sieve[v] <= n; x += inc[(m - 1) % 8]) {
+//                 // console.log(x + " * " + sieve[v] + ":=" + v + "" + " = " + x * sieve[v] + " ::: " + sieve[genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + (8 * Math.floor(x * sieve[v] / 30))] + " : " + genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + " @+@ " + (8 * Math.floor(x * sieve[v] / 30)) + " = " + sieve[genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + (8 * Math.floor(x * sieve[v] / 30))] + " ::: " + genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + " + " + (8 * Math.floor(x * sieve[v] / 30)))
+//                 // let val = x * sieve[v]
+//                 // let postVal = 
+//                 // console.log(postVal)
+//                 // let posVal = val - (30 * mag)
+
+
+//                 sieve[(genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + (8 * Math.floor(x * sieve[v] / 30)))] = false
+
+//                 m++
+//             }
+//         }
+
+//     }
+
+//     // for (let v = 7; v < n; v += inc[(h - 1) % 8]) {
+//     //     step++
+//     //     m = k;
+//     //     for (let s = v; s <= Math.floor(Math.sqrt(n)); s += inc[(m - 1) % 8]) {
+//     //         step++
+//     //         if (sieve[v * s]) sieve[v * s] = false
+//     //         // console.log(s + " : " + m)
+//     //         m++
+//     //     }
+//     //     k++
+//     //     h++
+//     //     // sieve[i+ inc[h % 8]] = i+ inc[h % 8]
+//     // }
+
+
+//     // for (let j = 0; genPrime[j] < Math.floor(Math.sqrt(n)); j++) {
+//     //     // let terminate;
+//     //     step++
+//     //     for (let g = j; genPrime[j] * genPrime[g] < n; g++) {
+//     //         let primeComposite = genPrime[j] * genPrime[g]
+//     //         if (sieve[primeComposite]) sieve[primeComposite] = false
+//     //         // terminate = genPrime[j] * genPrime[g + 1]
+//     //         step++
+//     //     }
+
+//     //     // if (terminate > n) {
+//     //     //     break
+//     //     // }
+
+//     // }
+
+
+
+//     return sieve
+
+// }
+
+
+// ==========================================
 
 const wheelPrime = (n) => {
-    let step = 0;
+
 
     const p = [2, 3, 5]
-    // let sieve = Array(n).fill(false);
-    let sieve = Array(n).fill(false)
-    // let sieve2 = []
 
-    const inc = [2, 4, 2, 4, 6, 2, 6, 4,
-        2, 4, 6, 6, 2, 6, 4, 2,
-        6, 4, 6, 8, 4, 2, 4, 2,
-        4, 8, 6, 4, 6, 2, 4, 6,
-        2, 6, 6, 4, 2, 4, 6, 2,
-        6, 4, 2, 4, 2, 10, 2, 10,]
+    let sieve = Array(Math.floor(n / 4) + 8)
+    // let sieve = []
+
+    let genPrime = Array(31).fill(false)
+    genPrime[7] = 0
+    genPrime[11] = 1
+    genPrime[13] = 2
+    genPrime[17] = 3
+    genPrime[19] = 4
+    genPrime[23] = 5
+    genPrime[29] = 6
+    genPrime[1] = -1
+
+    const inc = [4, 2, 4, 2, 4, 6, 2, 6]
 
     let g = 0;
-    let h = 0;
-    let m = 0;
-    let k = 0;
 
-    let wheelSum = 0
-    let compSum
+    for (let i = 7; i < n;) {
+        sieve[g] = i
+        i += inc[g % 8]
+        g++
+
+    }
 
 
+    for (let v = 0; v < sieve.length; v++) {
+        let m = v;
+        if (sieve[v]) {
+            for (let x = sieve[v]; x * sieve[v] <= n; x += inc[(m - 1) % 8]) {
 
-    // for (let i = 11; i + inc[g % 48] < n; i += inc[(g - 1) % 48]) {
-    //     sieve[i] = i;
-    //     g++
-    //     step++
-    // }
-    // Math.floor((Math.sqrt(n)))
+                sieve[(genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + (8 * Math.floor(x * sieve[v] / 30)))] = false
 
-    for (let v = 11; v <= n; v += inc[(h - 1) % 48]) {
-        step++
-        m = k;
-
-        // sieve[v] = v
-        for (let s = v; s * v < n; s += inc[(m - 1) % 48]) {
-
-            step++
-            if (!sieve[v]) sieve[v] = v
-            if (sieve[v * s]) {
-                sieve[v * s] = false
-                // console.log("!")
+                m++
             }
-            m++
         }
 
-        k++
-        h++
     }
 
+    // ==========================================
 
-    return step
+
+
+
+
+    // for (let v = 7; v < n; v += inc[(h - 1) % 8]) {
+    //     step++
+    //     m = k;
+    //     for (let s = v; s <= Math.floor(Math.sqrt(n)); s += inc[(m - 1) % 8]) {
+    //         step++
+    //         if (sieve[v * s]) sieve[v * s] = false
+    //         // console.log(s + " : " + m)
+    //         m++
+    //     }
+    //     k++
+    //     h++
+    //     // sieve[i+ inc[h % 8]] = i+ inc[h % 8]
+    // }
+
+
+    // for (let j = 0; genPrime[j] < Math.floor(Math.sqrt(n)); j++) {
+    //     // let terminate;
+    //     step++
+    //     for (let g = j; genPrime[j] * genPrime[g] < n; g++) {
+    //         let primeComposite = genPrime[j] * genPrime[g]
+    //         if (sieve[primeComposite]) sieve[primeComposite] = false
+    //         // terminate = genPrime[j] * genPrime[g + 1]
+    //         step++
+    //     }
+
+    //     // if (terminate > n) {
+    //     //     break
+    //     // }
+
+    // }
+
+
+
+    return sieve
 
 }
 
-const helper = () => {
-    let prime = [7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199]
-    let help = []
-    for (let f = 0; f < prime.length - 1; f++) {
-        help.push(prime[f + 1] - prime[f])
+//Dammit!!!
+
+//OKay lets try again
+
+const wheelOfEratosthenes = (n) => {
+    let p;
+    let A = [7, 11, 13, 17, 19, 23, 29, 31]
+    // const pos = []
+    // pos[7] = 0
+    // pos[11] = 1
+    // pos[13] = 2
+    // pos[17] = 3
+    // pos[19] = 4
+    // pos[23] = 5
+    // pos[29] = 6
+    // pos[1] = 7
+
+    // const pos = {
+    //     7: 0,
+    //     11: 1,
+    //     13: 2,
+    //     17: 3,
+    //     19: 4,
+    //     23: 5,
+    //     29: 6,
+    //     1: 7,
+    // }
+    let b = Math.floor((n) / 30)
+    // let int = n - b * 30
+    // let r = Math.floor(int / 8)
+
+    // let s = Array(((b) * 8)).fill(false)
+    let s = Array(n).fill(false)
+    // let s = []
+
+
+    for (let g = 0; A[g % 8] + (30 * (Math.floor(g / 8))) <= n; ++g) {
+        let val = A[g % 8] + (30 * (Math.floor(g / 8)))
+        // let inc = A[g % 8]
+        if (!s[val]) {
+            // if (val === 49) console.log(val)
+            s[val] = true
+
+            let h = g
+            for (let j = val; j * val <= n; j = A[h % 8] + (30 * (Math.floor(h / 8)))) {
+
+                // if (!s[j * val] && j * val === 49) {
+                //     s[j * val] = true
+                //     break
+                // }
+                if (!s[j * val]) {
+                    // if (j * val === 49) alert(true)
+                    s[j * val] = true
+
+                }
+                h++
+            }
+
+            // for (let j = s[g]; j * s[g] <= n; j = A[h % 8] + (30 * (Math.floor(h / 8)))) {
+            //     // let pos = ((j * inc) % 30) + 30 * Math.floor((j * inc) / 8)
+
+            //     let pos = (j * s[g]) - Math.floor(j * s[g] / 30) * 30
+            //     p = pos[pos] + 8 * Math.floor(j * s[g] / 30)
+
+
+
+            //     // p = pos[(j * s[g]) % 30] + (8 * (Math.floor((j * s[g]) - (j * s[g]) % 30) / 30))
+            //     s[p] = false
+            //     h++
+
+
+
+            // }
+        }
+
     }
-    return help
+
+    return s
+
 }
 
 
-console.log(getPrimesO(300))
+
+
+
+// // console.log(getPrimesO(300))
 console.log(sumPrimes2(300))
-console.log(sumPrimes(300))
+// // console.log(sumPrimes(300))
+// console.log(wheelOfEratosthenes(300))
 console.log(wheelPrime(300))
-console.log(helper())
-
-
-var t0 = performance.now();
-wheelPrime(10000001);
-var t1 = performance.now();
-console.log("Call to myfunc took " + (t1 - t0) + " milliseconds.")
 
 var m0 = performance.now();
-sumPrimes2(10000001);
+sumPrimes2(100000001);
 var m1 = performance.now();
 console.log("Call to theirfunc took " + (m1 - m0) + " milliseconds.")
+
+
+
+// // var t0 = performance.now();
+// // wheelOfEratosthenes(30000001);
+// // var t1 = performance.now();
+// // console.log("Call to wheelOfEra took " + (t1 - t0) + " milliseconds.")
+
+var t0 = performance.now();
+wheelPrime(100000001);
+var t1 = performance.now();
+console.log("Call to wheelPrime took " + (t1 - t0) + " milliseconds.")
+

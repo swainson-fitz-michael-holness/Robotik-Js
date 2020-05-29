@@ -329,8 +329,8 @@ const wheelPrime = (n) => {
 
     const p = [2, 3, 5]
 
-    let sieve = Array(Math.floor(n / 4) + 8)
-    // let sieve = []
+    // let sieve = Array(Math.floor(n / 4) + 8)
+    let sieve = []
 
     let genPrime = Array(31).fill(false)
     genPrime[7] = 0
@@ -366,44 +366,6 @@ const wheelPrime = (n) => {
         }
 
     }
-
-    // ==========================================
-
-
-
-
-
-    // for (let v = 7; v < n; v += inc[(h - 1) % 8]) {
-    //     step++
-    //     m = k;
-    //     for (let s = v; s <= Math.floor(Math.sqrt(n)); s += inc[(m - 1) % 8]) {
-    //         step++
-    //         if (sieve[v * s]) sieve[v * s] = false
-    //         // console.log(s + " : " + m)
-    //         m++
-    //     }
-    //     k++
-    //     h++
-    //     // sieve[i+ inc[h % 8]] = i+ inc[h % 8]
-    // }
-
-
-    // for (let j = 0; genPrime[j] < Math.floor(Math.sqrt(n)); j++) {
-    //     // let terminate;
-    //     step++
-    //     for (let g = j; genPrime[j] * genPrime[g] < n; g++) {
-    //         let primeComposite = genPrime[j] * genPrime[g]
-    //         if (sieve[primeComposite]) sieve[primeComposite] = false
-    //         // terminate = genPrime[j] * genPrime[g + 1]
-    //         step++
-    //     }
-
-    //     // if (terminate > n) {
-    //     //     break
-    //     // }
-
-    // }
-
 
 
     return sieve
@@ -491,13 +453,27 @@ const wheelOfEratosthenes = (n) => {
 
 }
 
+function primes(n) {
+    var arr = [];
+    for (var i = 2; i <= n; i++) {
+        if (i !== 4 && i <= 5) {
+            arr.push(i);
+        }
+        else {
+            if (i > 5 && i % 2 !== 0 && i % 3 !== 0 && i % 5 !== 0) {
+                arr[arr.length] = i;
+            }
+        }
+    }
+    return arr;
+}
 
 
 
 
 // // console.log(getPrimesO(300))
-console.log(sumPrimes2(300))
-// // console.log(sumPrimes(300))
+// console.log(sumPrimes2(300))
+console.log(primes(300))
 // console.log(wheelOfEratosthenes(300))
 console.log(wheelPrime(300))
 

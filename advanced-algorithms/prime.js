@@ -27,37 +27,16 @@ export const prime = () => {
             g++
 
         }
-
-        // related to fabio sieve
-        for (let v = 0; v < sieve.length; v++) {
-            let m = v;
-            if (sieve[v]) {
-                for (let x = sieve[v]; x * sieve[v] <= n; x += inc[(m - 1) % 8]) {
-                    sieve[(genPrime[((x * sieve[v]) - (Math.floor(x * sieve[v] / 30) * 30))] + (8 * Math.floor(x * sieve[v] / 30)))] = false
-                    m++
-                }
-            }
-
-        }
-
-
         return sieve
 
     }
 
-
-
-
-
-    // console.log(wheelPrime(300))
-
     let m0 = performance.now();
-    wheelPrime(100000001);
+    wheelPrime(20000001);
     let m1 = performance.now();
     console.log("Call to wheelPrime() took " + (m1 - m0) + " milliseconds.")
 
 
-    console.log(wheelPrime(300))
 
 }
 
